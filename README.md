@@ -16,5 +16,7 @@ Options:
 ```
 
 to use:
+
 source ./setup_python
+
 python b2purge.py bucket-name path/to/limit --dry-run --keep-days 180
