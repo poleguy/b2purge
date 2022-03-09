@@ -62,6 +62,7 @@ def bash_silent(cmd):
     return_code = process.wait()
     if return_code:
         #raise subprocess.CalledProcessError(return_code, cmd)
+        print(output)
         raise ValueError("Bash command failed")
     return output
 
