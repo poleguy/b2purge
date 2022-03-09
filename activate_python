@@ -1,0 +1,17 @@
+# activate ./cenv and set up environment
+# run this when running interactivately to avoid the time needed to re-run scripts/setup_python
+
+##############################################################################3
+##############################################################################3
+unset CONDA_FORCE_32BIT
+unset CFLAGS
+unset LDFLAGS
+
+##############################################################################3
+##############################################################################3
+
+
+# activate conda environment
+
+conda activate ./cenv
+# export PYTHONPATH="$PWD/modules"
